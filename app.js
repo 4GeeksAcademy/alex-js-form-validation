@@ -18,7 +18,6 @@ submitBtn.addEventListener('click', function(){
     if (cardNum.value && cvc.value && amount.value && firstName.value && lastName.value && city.value && postalCode.value && paymentSelected && message.value
     ) {
         alert('all good')
-        console.log(typeof cardNum.value)
         if (!alertMsg.classList.contains('d-none'))
             alertMsg.classList.toggle('d-none')
         myForm.reset()
