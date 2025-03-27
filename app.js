@@ -22,7 +22,6 @@ submitBtn.addEventListener('click', function(){
             alertMsg.classList.toggle('d-none')
         myForm.reset()
     } else {
-        // alert('fill all fields')
         if (alertMsg.classList.contains('d-none'))
         alertMsg.classList.toggle('d-none')
     }
